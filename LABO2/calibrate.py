@@ -24,9 +24,9 @@ import sys
 # import opencv for image processing
 import cv2
 
-marker_width = 0
-marker_height = 0
-marker_dist = 0
+marker_width = 12.5
+marker_height = 12.5
+marker_dist = 29.7
 
 if len(sys.argv) >= 3:
 	marker_width = float(sys.argv[1])

@@ -3,3 +3,7 @@ Dependencies :
 pip install opencv-python
 pip install mediapipe
 pip install oscpy
+
+=> Horizontal focal length: 601.13 pixels - Vertical focal length: 624.89
+=> Horizontal focal length: 665.28 pixels - Vertical focal length: 648.65
+=> Horizontal focal length: 658.15 pixels - Vertical focal length: 636.77
