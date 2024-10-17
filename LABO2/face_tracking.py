@@ -268,9 +268,9 @@ def runtracking():
 
             pos_x, pos_y, pos_z = compute3DPos(ibe_x, ibe_y, rec_ipd)
 
-            # print("3D position: " + "{:.2f}".format(pos_x) + " - "
-            # 											+ "{:.2f}".format(pos_y) + " - "
-            # 											+ "{:.2f}".format(pos_z))
+            print("3D position: " + "{:.2f}".format(pos_x) + " - "
+            											+ "{:.2f}".format(pos_y) + " - "
+            											+ "{:.2f}".format(pos_z))
 
             ################### Part 5: send the head position with OSC ######################
             clientOSC.send_message(b'/tracker/head/pos_xyz', [pos_x, pos_y, pos_z])
